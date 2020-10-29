@@ -1,0 +1,24 @@
+{
+  "name": "omeratagunn/openai",
+  "type": "library",
+  "description": "Composer package for openAI cli",
+  "keywords": ["openapi","openapicli"],
+  "homepage": "https://github.com/tyraelll/openApi-php",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "openai\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Omer ATAGUN",
+      "email": "omratagn@gmail.com",
+      "homepage": "https://itstoritveomeratagun.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^7.2"
+  }
+}
